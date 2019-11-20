@@ -1,19 +1,20 @@
 .circle {
+ 	height:65px;
+   	width:65px;  	
+   	border:2px solid rgb(215,215,215); 
   	border-radius:50%;
-  	width:65px;
-  	height:65px;
-  	border:2px solid rgb(215,215,215); 
-  	text-align: center;
+ 	text-align: center;
+  	margin-bottom: 60px;
 }
 
 .overview {
 	padding-top: 17px;
-	margin-bottom: 25px;
+	padding-bottom: 10px;
 }
 
 .ingredients 
 {
-	margin-top: 60px;
+	margin-top: 30px;
 }
 
 h1 {
@@ -21,6 +22,6 @@ h1 {
 }
 
 .signs {
-	margin-right: 5px;
 	margin-left: 5px;
+	margin-right: 5px;
 }

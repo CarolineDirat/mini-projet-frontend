@@ -1,39 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<!-- Required meta tags -->
 	<meta charset="utf-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<!-- Pour que le rendu et le zoom tactile soient corrects pour tous les périphériques -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="About French Cookies...">
 
+	<meta name="description" content="About French Cookies...">
+	
+	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+	<!-- lien vers le CSS supplémentaire -->
 	<link rel="stylesheet" href="assets/css/style.css">
 
+	<!-- CDN de fontawesome pour l'utilisation d'icônes -->
 	<script src="https://kit.fontawesome.com/628682d090.js" crossorigin="anonymous"></script>
 
 	<title>Mini-projet - Intégration d'une maquette</title>
 </head>
-<body>
-	<!-- Content here -->
-	<div class="container">
 
+<body>
+	
+	<div class="container">
+		
+		<!-- Image d'entête de la page -->
   		<head class="row">
 	  			<img src="assets/img/cookies.jpg" class="img-fluid" alt="Responsive image">				
   		</head>
-
+		
+		<!-- Entête de présentation -->
   		<header>
   			<h1>French Cookies</h1>
   			<p>Efficient aggregate maximize clicks-and-mortar infrastructures communities weblogs best-of-breed blogospheres frictionless interfaces B2C.</p>
   		</header>
 
+  		<!-- Vue d'ensemble des caractéristiques de la recette -->
   		<section>
   			<head> 
   				<h2>Overview</h2>
   				<hr>	
   			</head>
   			<aside class="row" >
-  				<div class="col-sm-12 col-md-12 col-lg-3 col-xl-3">
+  				<div class="col-md-12 col-lg-3 ">
   					<div class="overview">
   						<i class="fas fa-star"></i>
 						<i class="fas fa-star"></i>
@@ -69,15 +80,16 @@
 	  			</div>
   			</aside>
   		</section>
-
+  		
+  		<!-- Ingrédients de la recette -->
   		<section >
   			<head> 
   				<h2 class="ingredients">Ingredients</h2>
   				<hr>	
   				<h5>Servings:     
-  					<button><i class="fas fa-plus signs"></i></button>
+  					<button type="button"><i class="fas fa-plus signs"></i></button>
   					<span id="number" style="font-size: 1.3em">4</span>
-  					<button><i class="fas fa-minus signs"></i></button>
+  					<button type="button"><i class="fas fa-minus signs"></i></button>
   				</h5>
   			</head>
   			
@@ -124,15 +136,12 @@
   			</footer>
   		</section>
   		
-
 	</div>
 
-	<!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-	<script src="assets/js/incrementation.js"></script>
+	<!-- JavaScript pour le fonctionnement des boutons "+" et "-" 
+		pour le nombre de parts résultant de la recette -->
+	<script src="assets/js/incrementation.js"></script> <!-- PS : c'est juste pour le fun ! -->
+
 </body>
 </html>
